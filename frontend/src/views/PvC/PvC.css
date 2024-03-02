@@ -1,0 +1,90 @@
+/* .wrapper {
+  display: block;
+} */
+* {
+  margin: 0;
+  padding: 0%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+}
+.wallet-btn {
+  display: block;
+  margin: 30px auto;
+}
+.wallet-detail {
+  text-align: center;
+}
+.grid {
+  /* margin: 50px auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#outer-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ddd;
+}
+
+.player1 {
+  background-color: #000;
+}
+
+.player2 {
+  background-color: #f00;
+}
+
+.empty {
+  background-color: #fff;
+}
+
+.tip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.tip-text {
+  margin-left: 5px;
+}
+.step-input {
+  margin-top: 20px;
+  display: block;
+  width: 350px;
+}
+.confirm-btn {
+  margin-top: 20px;
+  display: block;
+  margin-left: 10px;
+  width: 100px;
+}
+.player-address-box {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  right: 150px;
+  top: 200px;
+}
+.back-btn {
+  margin: 30px 30px 0;
+}
