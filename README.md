@@ -40,4 +40,3 @@ The game is a variation of Conway's Game of Life, where players initialize the g
    ```
 ## Appendix
 the contract we used has been has been deployed on the sepolia testnet, address: https://sepolia.etherscan.io/address/0x53625ceb90dd1b91f15d3aff3a1137d85a6b868c
->>>>>>> Stashed changes
