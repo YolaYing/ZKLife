@@ -4,6 +4,8 @@ This repo represents an on-chain game of a cellular automaton, Game of Life. We 
 
 ## Game Overview
 
+Youtube link https://www.youtube.com/watch?v=8qXgFvDXKcM 1:23
+
 The game is a variation of Conway's Game of Life, where players initialize the grid with their respective positions. The grid evolves over a specified number of steps, and the winner is determined based on the final state of the grid.
 
 ## Game Logic
