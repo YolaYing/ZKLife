@@ -1,0 +1,22 @@
+{
+  "name": "contract-dev",
+  "version": "1.0.0",
+  "description": "ERC-1155 smart contract development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2"
+  }
+}
