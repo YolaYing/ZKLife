@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-# EthDenver-Game
-This is an EthDenver hackathon project and we built a game of life pro version
-=======
-# 🎮 **Game Of Life Pro Version**: Two-Player Evolution
+# 🎮 **ZKLife**: ZK-Enhanced On-Chain AI Gaming for Game of Life
 
 This TypeScript code represents a blockchain smart contract for a cellular automaton game. The game involves two players, denoted as Player 1 and Player 2, competing on a grid. We extend our gratitude to HyperOracle for providing their remarkable product, zkgraph-lib, which plays a crucial role in enabling blockchain interactions within the zkgraph ecosystem.
 
