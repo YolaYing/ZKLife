@@ -1,6 +1,6 @@
 # 🎮 **ZKLife**: ZK-Enhanced On-Chain AI Gaming for Game of Life
 
-This TypeScript code represents a blockchain smart contract for a cellular automaton game. The game involves two players, denoted as Player 1 and Player 2, competing on a grid. We extend our gratitude to HyperOracle for providing their remarkable product, zkgraph-lib, which plays a crucial role in enabling blockchain interactions within the zkgraph ecosystem.
+This repo represents an on-chain game of a cellular automaton, Game of Life. We built a two-player version of it! They, denoted as Player 1 and Player 2, compete on a grid for territory. You can also play it with our AI bot! We extend our gratitude to ORA (HyperOracle) for providing their remarkable product, zk oracle, which plays a crucial role in enabling blockchain interactions.
 
 ## Game Overview
 
@@ -9,8 +9,8 @@ The game is a variation of Conway's Game of Life, where players initialize the g
 ## Game Logic
 
 - Players initialize the game with their positions on the grid.
-- The grid evolves according to the rules of Conway's Game of Life over a specified number of steps.
-- The winner is determined by comparing the number of cells controlled by each player.
+- The grid evolves according to the rules of Conway's Game of Life (slightly modified for two-player competition) over a specified number of steps.
+- The winner is determined by comparing the number of cells.
   - If Player 1 controls more cells, they win (return value: 0).
   - If Player 2 controls more cells, they win (return value: 1).
   - If both players control an equal number of cells, the game is a tie (return value: 2).
